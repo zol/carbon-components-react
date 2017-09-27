@@ -16,7 +16,8 @@
     "storybook": "start-storybook -p 9000",
     "build-storybook": "build-storybook",
     "start": "npm run storybook",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "chromatic": "chromatic test --app-code='hzxfstp53iw' --runtimes=storybook:./.storybook/config.js"
   },
   "keywords": [
     "react",
@@ -92,6 +93,7 @@
     "flatpickr": "^3.0.7",
     "lodash.debounce": "^4.0.8",
     "react-addons-css-transition-group": "^15.4.2",
+    "react-chromatic": "^0.5.2",
     "warning": "3.0.0",
     "window-or-global": "^1.0.1"
   },
