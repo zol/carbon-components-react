@@ -3,7 +3,7 @@
     [
       "env",
       {
-        "modules": false,
+        "__commented_out_modules": false,
         "targets": {
           "browsers": [
             "last 1 version",

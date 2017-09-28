@@ -17,7 +17,7 @@
     "build-storybook": "build-storybook",
     "start": "npm run storybook",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "chromatic": "chromatic test --app-code='hzxfstp53iw' --runtimes=storybook:./.storybook/config.js"
+    "chromatic": "chromatic test --app-code='hzxfstp53iw' --runtimes=storybook:./.storybook/config.js --script-name=storybook --port=9000 --app-path=/iframe.html"
   },
   "keywords": [
     "react",
