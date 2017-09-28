@@ -93,7 +93,7 @@
     "flatpickr": "^3.0.7",
     "lodash.debounce": "^4.0.8",
     "react-addons-css-transition-group": "^15.4.2",
-    "react-chromatic": "^0.5.2",
+    "react-chromatic": "^0.5.3",
     "warning": "3.0.0",
     "window-or-global": "^1.0.1"
   },
